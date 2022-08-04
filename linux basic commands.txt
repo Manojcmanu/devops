@@ -1,0 +1,40 @@
+BASIC COMMANDS
+
+Touch - to create/touch single file{touch abc}
+Is - to list the contents of directory{is}
+Is-Ltr - to list contents in directory with details{Is-ltr}
+history - to view previously commands{history}
+vi/vim - to edit the file {vi filename}
+cat- to view the contents in file,other cat commands{cat file name}
+cat>file1 - overwrite file using cat command
+cat>>file2 -to combine 2 files
+mkdir - to create directory {mkdir directory_name}
+mkdir-p course/{test1,test2} - to create parent directory and then subdirectory
+rmdir- to remove directory{rmdir directory_name}
+cd- to change directory{cd directory_name or cd...}cd... to go one step backward
+mv- to move file/directory from one place to other{mv file1 /tmp/}
+rm - to remove file/directory from one place to another
+cp- to copy file from one place to another 
+pwd-to show present working directory
+   
+
+-rw-r--r--, these character is didvied into 3 programs
+1st character -file/directory/link
+rw- user/owner permission
+r-- group owner permission
+r-- other/public
+acl.+/ access control list
+ r= read 4(numeric values)
+w= write 2
+x= execute 1 
+ 
+umask,chmod and  chown 
+ 
+chmod is the command used to change premission
+chown is the command use to change ownership.[chown newusername directory name/ Chown :directory name user name]
+umask user creation file mask.
+
+links
+
+soft links to create link ln -sf/tmp/testdir/test/dirl/testfile
+unlink is used to remove the link file

@@ -1,0 +1,17 @@
+ADMINISTRATION COMMANDS
+
+df-h - to view the disk usage
+top-  -to view the resource utilization
+free-m - to view the memeory usage
+ps-elf  -to view the processes running
+ifconfig -to list ip addresses
+route- to list routes
+netstat-nr- to list routes
+ping- used to check the destination communicating or not {ping IP_ address}
+telnet<ip_addr><port>-checking destination ip address with port
+man-to display mannual of particular command{man cat}
+--help - to get help/options for commands {cat-help or Is --help} 
+ 
+umask,chmod and chown
+chmod= is the common user to change premission
+chown= is the common to user to change ownership
